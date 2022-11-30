@@ -75,7 +75,7 @@ insert into supplier values(1, 'Rajesh Retails', 'Delhi', 1234567890),
 
 -- CUSTOMER TABLE
 insert into customer values(1, 'AAKASH', 9999999999, 'DELHI', 'M'),
-						   (2, 'AMAN', 9785463215, 'NOIDA', 'M'),
+			   (2, 'AMAN', 9785463215, 'NOIDA', 'M'),
                            (3, 'NEHA', 9999999999, 'MUMBAI', 'F'),
                            (4, 'MEGHA', 9994562399, 'KOLKATA', 'F'),
                            (5, 'PULKIT', 7895999999, 'LUCKNOW', 'M');

@@ -68,7 +68,7 @@ foreign key(ORD_ID) references orders(ORD_ID)
 
 -- SUPPLIER TABLE
 insert into supplier values(1, 'Rajesh Retails', 'Delhi', 1234567890),
-						   (2, 'Appario Ltd.', 'Mumbai', 2589631470),
+			   (2, 'Appario Ltd.', 'Mumbai', 2589631470),
                            (3,	'Knome products', 'Banglore', 9785462315),
                            (4,	'Bansal Retails', 'Kochi', 8975463285),
                            (5,  'Mittal Ltd.', 'Lucknow', 7898456532);
@@ -82,14 +82,14 @@ insert into customer values(1, 'AAKASH', 9999999999, 'DELHI', 'M'),
 						
 -- CATEGORY TABLE
 insert into category values(1, 'BOOKS'),
-						   (2, 'GAMES'),
+			   (2, 'GAMES'),
                            (3, 'GROCERIES'),
                            (4, 'ELECTRONICS'),
                            (5, 'CLOTHES');
 
 -- PRODUCT TABLE
 insert into product values(1, 'GTA V', 'Windows 7 and above with i5 processor and 8GB RAM', 2),
-						  (2, 'TSHIRT', 'SIZE-L with Black, Blue and White variations', 5),
+			  (2, 'TSHIRT', 'SIZE-L with Black, Blue and White variations', 5),
                           (3, 'ROG LAPTOP', 'Windows 10 with 15inch screen, i7 processor, 1TB SSD', 4),
                           (4, 'OATS', 'Highly Nutritious from Nestle', 3),
                           (5, 'HARRY POTTER', 'Best Collection of all time by J.K Rowling', 1),
@@ -104,7 +104,7 @@ insert into product values(1, 'GTA V', 'Windows 7 and above with i5 processor an
 
 -- SUPPLIER_PRICING TABLE
 insert into supplier_pricing values(1, 1, 2, 1500),
-								   (2, 3, 5, 30000),
+				   (2, 3, 5, 30000),
                                    (3, 5, 1, 3000),
                                    (4, 2, 3, 2500),
                                    (5, 4, 1, 1000),
@@ -122,10 +122,10 @@ insert into supplier_pricing values(1, 1, 2, 1500),
 
 -- ORDER TABLE
 insert into orders values(101, 1500, '2021-10-06', 2, 1),
-				         (102, 1000, '2021-10-12', 3, 5),
+			 (102, 1000, '2021-10-12', 3, 5),
                          (103, 30000, '2021-09-16', 5, 2),
                          (104, 1500, '2021-10-05', 1, 1),
-						 (105, 3000, '2021-08-16', 4, 3),
+			 (105, 3000, '2021-08-16', 4, 3),
                          (106, 1450, '2021-08-18', 1, 9),
                          (107, 789, '2021-09-01', 3, 7),
                          (108, 780, '2021-09-07', 5, 6),
@@ -140,7 +140,7 @@ insert into orders values(101, 1500, '2021-10-06', 2, 1),
 
 -- RATING TABLE
 insert into rating values (1, 101, 4),
-				          (2, 102, 3),
+		          (2, 102, 3),
                           (3, 103, 1),
                           (4, 104, 2),
                           (5, 105, 4),
@@ -149,12 +149,12 @@ insert into rating values (1, 101, 4),
                           (8, 108, 4),
                           (9, 109, 3),
                           (10, 110, 5),
-						  (11, 111, 3),
+			  (11, 111, 3),
                           (12, 112, 4),
                           (13, 113, 2),
                           (14, 114, 1),
                           (15, 115, 1),
-						  (16, 116, 0);
+			  (16, 116, 0);
                           
  --  3)	Display the total number of customers based on gender who have placed orders of worth at least Rs.3000.
 	
